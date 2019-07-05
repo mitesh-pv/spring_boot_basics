@@ -65,6 +65,7 @@ This is done @ https://start.spring.io
     2. unzip the directory
     3. go to bin folder 
     4. write the groovy script app.groovy as an example given below
+    
 
 ```groovy
 @SpringBootApplication
@@ -75,8 +76,8 @@ class AppCtrl{
     }
 }
 ```
-    5. start the application by run command
-    
+5. start the application by run command
+
 ## `./spring run app.groovy`
 
 3. Spring project using IDE
