@@ -1,0 +1,10 @@
+1562262552817	Rename package 'io.spring.springbootapp.Topics'
+1562266930430	Copy package
+1562266962945	Rename type 'TopicController'
+1562266980755	Rename type 'TopicRepository'
+1562266994909	Rename type 'Topics'
+1562267003660	Rename type 'TopicService'
+1562267019058	Rename type 'CourceController'
+1562267030466	Rename type 'CourceService'
+1562267041847	Rename type 'Cources'
+1562267095692	Rename type 'CourceRepository'

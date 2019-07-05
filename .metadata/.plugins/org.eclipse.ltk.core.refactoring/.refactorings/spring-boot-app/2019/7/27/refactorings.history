@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;io.spring.springbootapp.Topics&apos; to &apos;course-api-database/src/main/java&apos;&#x0A;- Original project: &apos;spring-boot-app&apos;&#x0A;- Destination element: &apos;course-api-database/src/main/java&apos;&#x0A;- Original element: &apos;spring-boot-app/src/main/java/io.spring.springbootapp.Topics&apos;" description="Copy package" destination="=course-api-database/src\/main\/java" element1="/src\/main\/java&lt;io.spring.springbootapp.Topics" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1562262527099" version="1.0"/>
+</session>

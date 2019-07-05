@@ -1,0 +1,12 @@
+package io.spring.firstappapi.courseapi;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RestController
+public class HelloMessage {
+	
+	@RequestMapping("/")
+	public String getMessage() {
+		return "Hello Spring";
+	}
+}

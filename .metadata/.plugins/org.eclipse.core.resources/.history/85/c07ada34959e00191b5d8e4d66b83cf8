@@ -1,0 +1,8 @@
+package io.spring.courseapidatabase.Cources;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface CourseRepository extends CrudRepository<Courses, String>{
+		
+	public List<Courses> getCoursesByTopicId(String topicId);
+}

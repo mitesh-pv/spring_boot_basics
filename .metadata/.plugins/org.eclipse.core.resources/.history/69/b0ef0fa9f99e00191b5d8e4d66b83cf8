@@ -1,0 +1,5 @@
+package io.spring.jpaexample.SpringJpa.entities;
+
+public class User {
+
+}

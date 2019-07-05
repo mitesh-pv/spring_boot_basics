@@ -1,0 +1,5 @@
+package io.spring.firstappapi.courseapi;
+
+public class HelloMessage {
+
+}

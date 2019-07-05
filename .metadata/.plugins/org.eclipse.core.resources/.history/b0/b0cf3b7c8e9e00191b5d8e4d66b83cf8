@@ -1,0 +1,41 @@
+package io.spring.courseapidatabase.Cources;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class CourseService {
+	
+	@Autowired
+	private CourceRepository topicRepository;
+	
+	public List<Cources> getAllTopics(){
+		// return topics;
+		List<Cources> topics=new ArrayList<>();
+		topicRepository.findAll().forEach(topics::add);
+		return topics;
+	}
+	
+	public Optional<Cources> getTopic(String id) {
+		// return topics.stream().filter(topic->topic.getId().equals(id)).findFirst().get();
+		return topicRepository.findById(id);
+	}
+
+	public void addTopic(Cources topic) {
+		//	topics.add(topic);
+		topicRepository.save(topic);
+	}
+
+	public void updateTopic(String id, Cources topic) {
+		topicRepository.save(topic);
+	}
+
+	public void deleteTopic(String id) {
+		topicRepository.deleteById(id);	
+	}
+}

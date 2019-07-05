@@ -1,0 +1,10 @@
+package io.spring.springbootapp;
+
+public class SpringBootApi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

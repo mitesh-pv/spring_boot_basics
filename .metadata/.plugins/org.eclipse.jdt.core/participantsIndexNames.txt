@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+/Users/mitesh_pv/Desktop/SpringApplications/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2132920597.index
+/example-project/src/main/java
+/Users/mitesh_pv/Desktop/SpringApplications/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3344901573.index
+/exampleproject/src/main/resources
+/Users/mitesh_pv/Desktop/SpringApplications/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3226383053.index
+/example-project/src/main/java

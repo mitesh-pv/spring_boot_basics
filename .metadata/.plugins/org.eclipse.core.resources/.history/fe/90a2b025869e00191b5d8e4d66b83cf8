@@ -1,0 +1,5 @@
+package io.spring.courseapidatabase.Topics;
+
+public interface TopicRepository {
+
+}

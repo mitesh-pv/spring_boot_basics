@@ -1,0 +1,13 @@
+package io.spring.fullstackexample.example.projectcontroller;
+
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ExampleProjectController {
+	
+	@RequestMapping(method=RequestMethod.GET, value="/")
+	public void home() {
+		return "index";
+	}
+}
