@@ -252,9 +252,9 @@ public class PartTimeEmployee extends Employee{
 
 ```
 
-## What is difference between JPA and hybernate?
+## What is difference between JPA and hybernate and how are entities managed in JPA?
 
-JPA is an interface or specification and hybernate implements JPA.
+<P align="justify">JPA is an interface or specification and hybernate implements JPA.
 Hybernate provides implememntations to those JPA specifications.
 Hybernate is a ORM framwrork.
 JPA is an API which tells how to: 
@@ -271,7 +271,7 @@ It ensures that data is stored and retrieved from the database based on the mapp
 EntityManager: save data to the database.
 **@Repository**: that interacts with the database
 Transaction management is avoided here by using the declarative transaction by using the annotation **@Transactional**. This indicates each method will be involved in a transaction process.
-**@CrossOrigin**: CORS (Cross-origin resource sharing) allows a webpage to request additional resources into browser from other domains e.g. fonts, CSS or static images from CDNs. CORS helps in serving web content from multiple domains into browsers who usually have the same-origin security policy.
+**@CrossOrigin**: CORS (Cross-origin resource sharing) allows a webpage to request additional resources into browser from other domains e.g. fonts, CSS or static images from CDNs. CORS helps in serving web content from multiple domains into browsers who usually have the same-origin security policy.</p>
 
 ## Difference between @NotNull, @NotBlank, @NotEmpty
     
