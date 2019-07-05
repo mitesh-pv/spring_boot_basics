@@ -274,30 +274,13 @@ Transaction management is avoided here by using the declarative transaction by u
 **@CrossOrigin**: CORS (Cross-origin resource sharing) allows a webpage to request additional resources into browser from other domains e.g. fonts, CSS or static images from CDNs. CORS helps in serving web content from multiple domains into browsers who usually have the same-origin security policy.
 
 ## Difference between @NotNull, @NotBlank, @NotEmpty
-1. String name = null;
-    @NotNull: false
-    @NotEmpty: false
-    @NotBlank: false
-
-2. String name = "";
-    @NotNull: true
-    @NotEmpty: false
-    @NotBlank: false
-
-3. String name = " ";
-    @NotNull: true
-    @NotEmpty: true
-    @NotBlank: false
-
-4. String name = "Great answer!";
-    @NotNull: true
-    @NotEmpty: true
-    @NotBlank: true
     
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|   String     |   @NotNull    |   @NotEmpty   |   @NotBlank   |   
+| -------------| ------------- | ------------- | ------------- |
+| name = null; | false         | false         |  false        |    
+| name = "";   | true          | false         |  false        |
+| name = " ";  | true          | true          |  false        |
+| name="Hello" | true          | true          |  true         |
 
 
 **ResponseEntity<T>**: ResponseEntity represents an HTTP response, including headers, body, and status. 
