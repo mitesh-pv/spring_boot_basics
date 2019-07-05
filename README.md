@@ -249,7 +249,6 @@ public class FullTimeEmployee extends Employee{
 public class PartTimeEmployee extends Employee{
     protected double hourlyWages;
 }
-
 ```
 
 ## What is difference between JPA and hybernate and how are entities managed in JPA?
