@@ -1,6 +1,0 @@
-package io.spring.jpaexample.SpringJpa;
-
-@Component
-public class UserServiceCommandLineRunner {
-
-}

@@ -1,9 +1,0 @@
-package io.spring.firstappapi.courseapi;
-
-public class HelloMessage {
-	
-	@RequestMapping("/")
-	public String getMessage() {
-		return "Hello Spring";
-	}
-}

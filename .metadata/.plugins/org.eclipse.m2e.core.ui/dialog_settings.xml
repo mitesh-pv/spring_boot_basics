@@ -71,6 +71,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/mitesh_pv/Desktop/SpringApplications/SpringJpa"/>
+			<item value="/Users/mitesh_pv/Desktop/SpringApplications/course-api-database"/>
 			<item value="/Users/mitesh_pv/Downloads/example-project"/>
 			<item value="/Users/mitesh_pv/Downloads/SpringJpa"/>
 			<item value="/Users/mitesh_pv/Downloads/course-api-database"/>

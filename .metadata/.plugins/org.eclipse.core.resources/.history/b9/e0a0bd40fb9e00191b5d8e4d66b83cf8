@@ -1,6 +1,0 @@
-package io.spring.jpaexample.SpringJpa.service;
-
-public class UserService {
-	
-	private EntityManager etityManager;
-}

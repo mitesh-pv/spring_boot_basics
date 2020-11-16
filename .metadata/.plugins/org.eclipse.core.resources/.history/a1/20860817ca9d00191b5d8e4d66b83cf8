@@ -1,9 +1,0 @@
-package io.spring.springbootapp.Demo;
-
-import org.springframework.web.bind.annotation.RestController;
-
-@RestController
-public class DemoController {
-	
-	
-}

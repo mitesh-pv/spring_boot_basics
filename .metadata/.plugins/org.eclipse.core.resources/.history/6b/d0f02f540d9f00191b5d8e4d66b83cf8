@@ -1,6 +1,0 @@
-package io.spring.fullstackexample.example.projectcontroller;
-
-@RestController
-public class ExampleProjectController {
-
-}

@@ -1,7 +1,0 @@
-package io.spring.courseapidatabase.Cources;
-
-import org.springframework.data.repository.CrudRepository;
-
-public interface CourceRepository extends CrudRepository<Topics, String>{
-	
-}

@@ -1,8 +1,0 @@
-package io.spring.firstappapi.courseapi;
-
-public class HelloMessage {
-	
-	public String getMessage() {
-		return "Hello Spring";
-	}
-}
